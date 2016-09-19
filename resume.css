@@ -58,3 +58,7 @@ div div h4{
 	float: right;
 	border-left: 1px solid black;
 }
+
+#intro p{
+	font-style: oblique;
+}
