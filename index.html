@@ -1,52 +1,45 @@
+<!DOCTYPE html>
 <html>
-    <head>
-    <title>Welcome</title>
-    
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link href="toastr.css" rel="stylesheet"/>
-    <script src="toastr.js"></script>
+<head>
+	<title>Brandon Hinds - Resume</title>
+	<link rel="stylesheet" type="text/css" href="css/resume.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
 
-    <script type="text/javascript">
-        function changeQuote()
-        {
-            document.getElementById("quote").innerHTML = document.getElementById("newquote").value;
+    <div id="resume">
+        <div id="intro">
+            <img class="profile" src="res/pic.jpg"/>
 
-            toastr["success"]("You Changed The Quote", "Quote Changed")
+            <h1><em>Brandon Hinds</em></h1>
+            <hr>
 
-            toastr.options = {
-              "closeButton": true,
-              "debug": false,
-              "newestOnTop": false,
-              "progressBar": true,
-              "positionClass": "toast-top-right",
-              "preventDuplicates": false,
-              "onclick": null,
-              "showDuration": "300",
-              "hideDuration": "1000",
-              "timeOut": "5000",
-              "extendedTimeOut": "1000",
-              "showEasing": "swing",
-              "hideEasing": "linear",
-              "showMethod": "fadeIn",
-              "hideMethod": "fadeOut"
-            }
-        }
-    </script>
-    </head>
+            <p>Cell Number: <span>876-446-2730 </span></p>
+            <p>Email: <span>brandonhinds13@gmail.com</span></p>
 
-    <body>
-    <!--<script src="script.js"></script>-->
+            <br><br>
 
-    <h1>Welcome, Have A Look Around</h1>
+            <h2>Career Objectives</h2>
+            <p>I have decided on multiple career paths in computer science I wish to pursue, namely, hacking and penetration testing, software engineering, web development and possibly data science.</p>
 
-    <div class="quotebox">
-    <input type="text" id="newquote" class="textbox">
-    <input type="submit" class="button" value="Change Quote" onClick=changeQuote()>
+        </div>
 
-    <br><br><br><br><br><br>
+        <br>
 
-    <i><h3 id="quote">"the quieter you become, the more you are able to hear" - Kali Linux</h3></i>
+        <div id="bar">
+            <button class="navbtn">Education</button>
+            <button class="navbtn">Skills</button>
+            <button class="navbtn">Experience</button>
+            <button class="navbtn">Hobbies</button>
+        </div>
+
+        <div id="display">
+            <div id="info">
+            </div>
+        </div>
+
+        <br><br>
     </div>
-
-    </body>
+</body>
 </html>
