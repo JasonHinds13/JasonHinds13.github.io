@@ -1,5 +1,4 @@
-body
-{
+body{
 	background-color: #B4CDCD;
 }
 
@@ -7,17 +6,11 @@ h1{
 	color: blue;
 }
 
-h1:hover
-{
-	color: red;
-}
-
 #intro{
 	position: relative;
 }
 
-.profile
-{
+.profile{
 	position: absolute;
 	height: 200px;
 	width: 200px;
@@ -28,11 +21,10 @@ h1:hover
 }
 
 .profile:hover{
-	border: 5px solid red;
+	border: 5px solid #0020C2;
 }
 
-p span:hover
-{
+p span:hover{
 	color: blue;
 	font-style: italic;
 	text-decoration: underline;
@@ -42,8 +34,7 @@ li span{
 	color: grey;
 }
 
-.subpoints
-{
+.subpoints{
 	height: 100px;
 	width: 1000px;
 }
@@ -65,8 +56,7 @@ div div h4{
 	/* empty rule */
 }
 
-.details
-{
+.details{
 	height: 70px;
 	width: 575px;
 	float: right;
@@ -77,14 +67,13 @@ div div h4{
 	font-style: oblique;
 }
 
-#resume
-{
+#resume{
 	margin: auto;
 	width: 800px;
 }
 
 /* Social Media Icons */
-.fa {
+.fa{
     padding: 20px;
     font-size: 30px;
     width: 20px;
@@ -93,24 +82,24 @@ div div h4{
     border-radius: 50%;
 }
 
-.fa:hover {
+.fa:hover{
     opacity: 0.7;
 }
 
 /* Facebook */
-.fa-facebook {
+.fa-facebook{
     background: #3B5998;
     color: white;
 }
 
 /* Twitter */
-.fa-twitter {
+.fa-twitter{
     background: #55ACEE;
     color: white;
 }
 
 /* Linkedin */
-.fa-linkedin {
+.fa-linkedin{
     background: #007bb5;
     color: white;
 }
