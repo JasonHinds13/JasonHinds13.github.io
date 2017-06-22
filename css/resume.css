@@ -53,16 +53,16 @@ div div h4{
 }
 
 #bar{
-	background-color: blue;
 	height: 50px;
 }
 
 .navbtn{
-
+	width: 100px;
+	height: 50px;
 }
 
 #display{
-	
+	/* empty rule */
 }
 
 .details
