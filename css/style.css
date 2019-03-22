@@ -1,45 +1,85 @@
-body
-{
-    background-color: black;
+body {
+  background: #232526;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-h1
-{
-    color: #2eb82e;
-    text-align: center;
+.nav-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: right;
 }
 
-.quotebox
-{
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    margin-top: -50px;
-    margin-left: -275px;
+.nav-bar li, .footer li {
+    display: inline-block;
 }
 
-.button 
-{
-    background-color: #2eb82e;
+.nav-bar li a{
+  font-size: 19px;
+}
+
+.nav-bar li a, .footer li a {
+    display: block;
     color: white;
-    padding: 15px 32px;
     text-align: center;
-    font-size: 16px;
-    margin: 4px 2px;
-    border: none;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
-.textbox
-{
-    padding: 15px 100px;
-    text-align: center;
-    font-size: 16px;
-    margin: 4px 2px;
-    border: none;
+.nav-bar li a:hover {
+    border-bottom: 5px solid white;
 }
 
-h3
-{
-    color: #808080;
-    text-align: center;
+.nav-bar .left{
+  float: left;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+#name{
+  font-size: 18px;
+  font-weight: normal;
+}
+
+#content{
+  height: 300px;
+  width: 500px;
+  position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#content p{
+  color: white;
+  font-size: 40px;
+  font-family: "Apple Chancery", cursive;
+  font-style: italic;
+}
+
+.footer {
+   right: 0;
+   margin: 0;
+   padding: 0;
+   bottom: 0;
+   position: absolute;
+   overflow: hidden;
+   list-style-type: none;
+}
+
+.footer li a img{
+  height: 25px;
+  width: 25px;
 }
