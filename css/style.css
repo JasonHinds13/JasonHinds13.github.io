@@ -47,25 +47,21 @@ body {
 }
 
 #content{
-  height: 300px;
-  width: 500px;
   position: absolute;
-	top:0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	margin: auto;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
+#content h1{
+  color: white;
+  font-size: 40px;
 }
 
 #content p{
   color: white;
-  font-size: 40px;
-  font-family: "Apple Chancery", cursive;
+  font-size: 18px;
   font-style: italic;
 }
 
