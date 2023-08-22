@@ -1,0 +1,46 @@
+#welcomeBox{
+	text-align: center;
+}
+
+#welcomeBox h1,h2{
+	color: #154c79;
+}
+
+#welcomeBox h1 strong{
+	font-style: italic;
+}
+
+#welcomeBox h3{
+	color: gray;
+	font-style: italic;
+}
+
+#gamearea{
+	display: grid;
+	justify-content: center;
+	grid-template-columns: repeat(9, 50px);
+}
+
+.gameTile{
+	width: 50px;
+	height: 50px;
+	background-color: #154c79;
+	border: 2px solid #1a6985;
+
+	text-align: center;
+	color: red;
+	font-size: 30px;
+	font-style: italic;
+}
+
+.gameTile:nth-child(2n){
+	background-color: #1e81b0;
+}
+
+.gameTile:hover{
+	background-color: #76b5c5;
+}
+
+.gameTile.active{
+	background-color: #76b5c5;
+}
