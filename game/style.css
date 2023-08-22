@@ -1,3 +1,7 @@
+body{
+	background: #ADD8E6;
+}
+
 #welcomeBox{
 	text-align: center;
 }
@@ -12,6 +16,11 @@
 
 #welcomeBox h3{
 	color: gray;
+	font-style: italic;
+}
+
+.status {
+	color: red;
 	font-style: italic;
 }
 
@@ -43,4 +52,15 @@
 
 .gameTile.active{
 	background-color: #76b5c5;
+}
+
+.gameTileDone{
+	animation-name: done;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes done{
+	from{background-color: #154c79;}
+	to{background-color: #76b5c5;}
 }
